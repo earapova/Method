@@ -20,6 +20,7 @@ namespace E_Method
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hallo, World!");
+            textBox1.Text = "Hello, World!";
         }
     }
 }
